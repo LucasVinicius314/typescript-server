@@ -1,0 +1,19 @@
+{
+  "name": "typescript-server",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "author": "Lucas Coelho <58010418+LucasVinicius314@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "tsc",
+    "prestart": "npm run build"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.21"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

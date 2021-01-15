@@ -1,0 +1,11 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "server/"
+  },
+  "exclude": [
+    "node_modules",
+    "server"
+  ]
+}
